@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/crm-adapter" },
+    { "path": "./packages/mock-crm" },
+    { "path": "./packages/approvals" },
+    { "path": "./packages/agent" }
+  ]
+}

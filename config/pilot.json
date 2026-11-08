@@ -1,0 +1,25 @@
+{
+  "clientId": "pilot-acme",
+  "clientName": "Acme Robotics",
+  "timezone": "America/New_York",
+  "reportScheduleCron": "0 18 * * 1-5",
+  "features": {
+    "dailyReport": true,
+    "quoteDraft": true,
+    "meetingScheduler": false
+  },
+  "report": {
+    "audience": "sales-ops",
+    "defaultLookbackDays": 1
+  },
+  "quote": {
+    "currency": "USD",
+    "defaultValidityDays": 30,
+    "paymentTerms": "Net 30"
+  },
+  "send": {
+    "mode": "stub",
+    "fromName": "Acme Sales Ops",
+    "fromEmail": "ops@acme-robotics.example"
+  }
+}
