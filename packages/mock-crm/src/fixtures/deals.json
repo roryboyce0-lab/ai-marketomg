@@ -1,0 +1,83 @@
+[
+  {
+    "id": "deal_northwind_fleet",
+    "name": "Northwind — Warehouse Fleet Expansion",
+    "stage": "Proposal",
+    "amount": 184000,
+    "currency": "USD",
+    "contactIds": ["contact_nova"],
+    "company": "Northwind Labs",
+    "owner": "Alex Rivera",
+    "updatedAt": "2026-11-07T21:10:00.000Z",
+    "lineItems": [
+      {
+        "sku": "ARM-200",
+        "description": "Collaborative picking arm",
+        "quantity": 4,
+        "unitPrice": 32000
+      },
+      {
+        "sku": "NAV-BASE",
+        "description": "Fleet navigation base station",
+        "quantity": 2,
+        "unitPrice": 18000
+      },
+      {
+        "sku": "SVC-ONBOARD",
+        "description": "Onboarding + training package",
+        "quantity": 1,
+        "unitPrice": 20000
+      }
+    ]
+  },
+  {
+    "id": "deal_brightline_pilot",
+    "name": "Brightline — Line Pilot Kit",
+    "stage": "Negotiation",
+    "amount": 62000,
+    "currency": "USD",
+    "contactIds": ["contact_jordan"],
+    "company": "Brightline Manufacturing",
+    "owner": "Alex Rivera",
+    "updatedAt": "2026-11-06T16:40:00.000Z",
+    "lineItems": [
+      {
+        "sku": "ARM-100",
+        "description": "Entry collaborative arm",
+        "quantity": 2,
+        "unitPrice": 22000
+      },
+      {
+        "sku": "SVC-PILOT",
+        "description": "30-day pilot support",
+        "quantity": 1,
+        "unitPrice": 18000
+      }
+    ]
+  },
+  {
+    "id": "deal_harbor_scan",
+    "name": "Harbor Co — Dock Scan Retrofit",
+    "stage": "Discovery",
+    "amount": 41000,
+    "currency": "USD",
+    "contactIds": ["contact_sam"],
+    "company": "Harbor Co",
+    "owner": "Morgan Lee",
+    "updatedAt": "2026-11-05T19:05:00.000Z",
+    "lineItems": [
+      {
+        "sku": "SCAN-DOCK",
+        "description": "Dock occupancy scanners (pair)",
+        "quantity": 3,
+        "unitPrice": 9000
+      },
+      {
+        "sku": "SVC-INSTALL",
+        "description": "Install + calibration",
+        "quantity": 1,
+        "unitPrice": 14000
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "ai-marketomg",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI marketing/sales agent for pilot clients — daily reports and quote drafts with human approval",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @ai-marketomg/dashboard",
+    "build": "npm run build -w @ai-marketomg/dashboard",
+    "start": "npm run start -w @ai-marketomg/dashboard",
+    "typecheck": "tsc -b && npm run typecheck -w @ai-marketomg/dashboard",
+    "run:report": "tsx scripts/run-daily-report.ts",
+    "run:quote": "tsx scripts/run-quote-draft.ts",
+    "smoke": "tsx scripts/smoke.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

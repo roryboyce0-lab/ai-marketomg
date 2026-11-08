@@ -1,0 +1,23 @@
+[
+  {
+    "id": "contact_nova",
+    "name": "Nova Chen",
+    "email": "nova.chen@northwind.example",
+    "company": "Northwind Labs",
+    "title": "VP Operations"
+  },
+  {
+    "id": "contact_jordan",
+    "name": "Jordan Hale",
+    "email": "jordan.hale@brightline.example",
+    "company": "Brightline Manufacturing",
+    "title": "Procurement Lead"
+  },
+  {
+    "id": "contact_sam",
+    "name": "Sam Ortiz",
+    "email": "sam.ortiz@harborco.example",
+    "company": "Harbor Co",
+    "title": "Facilities Director"
+  }
+]

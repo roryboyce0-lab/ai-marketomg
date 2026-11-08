@@ -1,0 +1,118 @@
+[
+  {
+    "id": "act_01",
+    "type": "email",
+    "subject": "Sent proposal deck to Northwind",
+    "body": "Shared revised warehouse layout and ARM-200 pricing with Nova Chen.",
+    "occurredAt": "2026-11-03T14:20:00.000Z",
+    "dealId": "deal_northwind_fleet",
+    "contactId": "contact_nova",
+    "owner": "Alex Rivera"
+  },
+  {
+    "id": "act_02",
+    "type": "call",
+    "subject": "Discovery call — Harbor Co docks",
+    "body": "Sam outlined night-shift bottlenecks; interested in SCAN-DOCK retrofit.",
+    "occurredAt": "2026-11-03T18:05:00.000Z",
+    "dealId": "deal_harbor_scan",
+    "contactId": "contact_sam",
+    "owner": "Morgan Lee"
+  },
+  {
+    "id": "act_03",
+    "type": "meeting",
+    "subject": "Brightline pilot kickoff sync",
+    "body": "Aligned on 2-arm pilot footprint and success metrics for week one.",
+    "occurredAt": "2026-11-04T16:00:00.000Z",
+    "dealId": "deal_brightline_pilot",
+    "contactId": "contact_jordan",
+    "owner": "Alex Rivera"
+  },
+  {
+    "id": "act_04",
+    "type": "stage_change",
+    "subject": "Brightline moved to Negotiation",
+    "body": "Procurement requested Net-30 and a 5% pilot discount.",
+    "occurredAt": "2026-11-04T20:15:00.000Z",
+    "dealId": "deal_brightline_pilot",
+    "owner": "Alex Rivera"
+  },
+  {
+    "id": "act_05",
+    "type": "note",
+    "subject": "Northwind security questionnaire",
+    "body": "IT asked for SOC2 summary and on-prem networking diagram.",
+    "occurredAt": "2026-11-05T13:40:00.000Z",
+    "dealId": "deal_northwind_fleet",
+    "contactId": "contact_nova",
+    "owner": "Alex Rivera"
+  },
+  {
+    "id": "act_06",
+    "type": "email",
+    "subject": "Harbor Co site visit confirmed",
+    "body": "Scheduled Thursday walkthrough of docks 3–5 with facilities.",
+    "occurredAt": "2026-11-05T19:05:00.000Z",
+    "dealId": "deal_harbor_scan",
+    "contactId": "contact_sam",
+    "owner": "Morgan Lee"
+  },
+  {
+    "id": "act_07",
+    "type": "task",
+    "subject": "Prepare Brightline quote revision",
+    "body": "Include SVC-PILOT and dual ARM-100 line items; hold pricing through Nov 30.",
+    "occurredAt": "2026-11-06T15:10:00.000Z",
+    "dealId": "deal_brightline_pilot",
+    "owner": "Alex Rivera"
+  },
+  {
+    "id": "act_08",
+    "type": "call",
+    "subject": "Northwind follow-up on training days",
+    "body": "Nova wants 3 onsite training days included in SVC-ONBOARD.",
+    "occurredAt": "2026-11-06T21:25:00.000Z",
+    "dealId": "deal_northwind_fleet",
+    "contactId": "contact_nova",
+    "owner": "Alex Rivera"
+  },
+  {
+    "id": "act_09",
+    "type": "meeting",
+    "subject": "Weekly pipeline review",
+    "body": "Team prioritized Northwind proposal and Brightline negotiation this week.",
+    "occurredAt": "2026-11-07T15:00:00.000Z",
+    "owner": "Alex Rivera"
+  },
+  {
+    "id": "act_10",
+    "type": "email",
+    "subject": "Sent security addendum to Northwind",
+    "body": "Attached networking diagram and SOC2 overview; awaiting legal review.",
+    "occurredAt": "2026-11-07T21:10:00.000Z",
+    "dealId": "deal_northwind_fleet",
+    "contactId": "contact_nova",
+    "owner": "Alex Rivera"
+  },
+  {
+    "id": "act_11",
+    "type": "note",
+    "subject": "Harbor Co budget timing",
+    "body": "Capex window opens next fiscal quarter; keep Discovery warm with scan demo.",
+    "occurredAt": "2026-11-08T14:30:00.000Z",
+    "dealId": "deal_harbor_scan",
+    "contactId": "contact_sam",
+    "owner": "Morgan Lee"
+  },
+  {
+    "id": "act_12",
+    "type": "email",
+    "subject": "Brightline asked for formal quotation",
+    "body": "Jordan requested a signed quote draft for the dual-arm pilot kit.",
+    "occurredAt": "2026-11-08T18:45:00.000Z",
+    "dealId": "deal_brightline_pilot",
+    "contactId": "contact_jordan",
+    "owner": "Alex Rivera"
+  }
+]
