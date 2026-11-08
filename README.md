@@ -27,15 +27,25 @@ npm run run:quote -- deal_brightline_pilot
 ## Layout
 
 ```
-apps/dashboard          Minimal Next.js operator UI
-packages/agent          runDailyReport / runQuoteDraft
-packages/approvals      Pending/approved/rejected store + send stub
-packages/crm-adapter    Thin CrmAdapter interface
-packages/mock-crm       Fixture-backed mock implementation
-packages/core           Shared types, pilot config, JSON file store
-config/pilot.json       Single-pilot client config
-data/                   Runtime state (runs, approvals, send-log)
+apps/dashboard              Minimal Next.js operator UI
+packages/agent              runDailyReport / runQuoteDraft
+packages/agent/skills       Vendored marketing skill subset (MIT)
+.agents/product-marketing.md  Shared ICP/voice context for both workflows
+packages/approvals          Pending/approved/rejected store + send stub
+packages/crm-adapter        Thin CrmAdapter interface
+packages/mock-crm           Fixture-backed mock implementation
+packages/core               Shared types, pilot config, JSON file store
+config/pilot.json           Single-pilot client config
+data/                       Runtime state (runs, approvals, send-log)
 ```
+
+## Marketing skills
+
+A **pinned subset** of [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) lives under `packages/agent/skills/`:
+
+`product-marketing`, `revops`, `sales-enablement`, `offers`, `copy-editing`, `emails`, `marketing-loops`.
+
+See that folder’s README for the upstream commit SHA and attribution. Daily report and quote draft load these as prompt modules (answers come from pilot config + CRM, not interactive chat). Approval gate and stub send are unchanged.
 
 ## Architecture
 
